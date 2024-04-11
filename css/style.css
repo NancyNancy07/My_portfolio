@@ -61,7 +61,7 @@ p {
 
 /* nav bar */
 .bar {
-  background: var(--bg-color);
+  background: transparent;
   position: fixed;
   width: 100%;
   z-index: 1;
