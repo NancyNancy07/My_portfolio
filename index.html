@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="bar">
+      <div class="nav-container">
+        <a href="index.html"
+          ><img id="logo" src="images/logo.svg" alt="logo"
+        /></a>
+        <nav class="nav-bar">
+          <ul class="ul">
+            <li class="li">
+              <a href="#">Home</a>
+            </li>
+            <li class="li">
+              <a href="#about">About</a>
+            </li>
+            <li class="li">
+              <a href="#work">Projects</a>
+            </li>
+            <li class="li">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="section bg">
+        <!-- <img class="bg-img" src="images/background.png" alt="img" /> -->
+
+        <div class="intro-container">
+          <h1 class="title-text">Nancy</h1>
+          <!-- <h2 class="subtitle-text">UX / UI Designer</h2> -->
+          <div class="slide-container">
+            <span id="slider1"></span>
+            <span id="slider2"></span>
+            <div class="text-container">
+              <h2 class="subtitle-text slider-image one">UX / UI Designer</h2>
+              <h2 class="subtitle-text slider-image one">Frontend Developer</h2>
+            </div>
+          </div>
+        </div>
+        <div class="slide-container">
+          <span id="slider1"></span>
+          <span id="slider2"></span>
+          <div class="image-container">
+            <img
+              src="images/mock1.png"
+              alt="image"
+              class="slider-image one image"
+            />
+            <img
+              src="images/mock2.png"
+              alt="image"
+              class="slider-image two image"
+            />
+          </div>
+        </div>
+      </div>
+      <div id="about" class="section revealUp bg1">
+        <h1 class="subtitle-text">About Me</h1>
+        <div class="single-project-description about-container">
+          <div>
+            <img class="ux-image" src="images/ux.png" alt="image" />
+
+            <img class="html-image" src="images/htmllogo.png" alt="image" />
+          </div>
+          <article>
+            <h2>Hi! (Web Developer Student)</h2>
+            <p>
+              I am a New Media Design student at Jonkoping University, currently
+              I'm persuing the Bachelor's degree and focusing on Web Development
+              and UX/UI design. I am passionate about learning, and problem
+              solving. Through this education I learnt a lot and I want to
+              explore myself more in the field.
+            </p>
+            <h2>Skills</h2>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>UX/UI Designer</li>
+              <li>Prototyping</li>
+              <li>Adobe Tools</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+      <div id="work" class="revealUp bg2">
+        <h1 class="subtitle-text">My Work</h1>
+        <div class="work single-project-description">
+          <aside>
+            <h2>
+              Hacked Horwarts <span class="work-type">(Study Project)</span>
+            </h2>
+            <p>
+              In this assignment, I worked on a hacked Hogwarts student list
+              assignment.In this project, I mainly focused on javascript because
+              it was the task and aim of the project (Just Javascript). As I was
+              working with json data and how to manipulate it in the javascript.
+            </p>
+            <h2>Modules</h2>
+
+            <li>JSON</li>
+            <li>Database</li>
+            <li>Search Functionality</li>
+            <li>Fetching data and Manipulate it</li>
+          </aside>
+          <div>
+            <img class="image" src="images/hogwarts.png" alt="img1" />
+            <p class="pjt-button">
+              <a
+                href="https://nancynancy13.github.io/Hogwarts-final-assignment/"
+              >
+                See Project</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="bg2">
+        <div class="single-project-description">
+          <div>
+            <img class="image" src="images/customise.png" alt="img1" />
+            <p class="pjt-button">
+              <a href="https://thordiskara.github.io/CustomiseMe/"
+                >See Project</a
+              >
+            </p>
+          </div>
+          <aside>
+            <h2>
+              CustomiseMe <span class="work-type">(Client based Project)</span>
+            </h2>
+            <p>
+              In this assignment, we worked as a team and examined the current
+              design of CustomiseMe’s website and created a solution for the
+              design to be more UX friendly based on research and analyses and
+              drescribe every optimized element.
+            </p>
+            <h2>Modules</h2>
+            <li>Research Methods(Benchmark & Trend Research)</li>
+            <li>Color Scheme</li>
+            <li>Typography</li>
+            <li>Photography</li>
+            <li>Design System</li>
+          </aside>
+        </div>
+      </div>
+      <div class="bg2">
+        <div class="work single-project-description">
+          <aside>
+            <h2>
+              Foofest Copenhagen
+              <span class="work-type">(Final Project)</span>
+            </h2>
+            <p>
+              In this assignment, I created an app for Foofest Festival based in
+              Copenhagen. In this project, I mainly focused on javascript
+              frameworks that's why I developed this app in React. The main
+              purpose of this project was creating a full ticket purchase flow.
+            </p>
+            <h2>Modules</h2>
+
+            <li>Form (Credit Card & Personal Information)</li>
+            <li>React</li>
+            <li>Netlify</li>
+            <li>Insomnia</li>
+            <li>Reservation System</li>
+          </aside>
+          <div>
+            <img class="image" src="images/foofest1.png" alt="img1" />
+            <p class="pjt-button">
+              <a href="https://foofest-reaction.netlify.app/">See Project</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="bg2">
+        <div class="single-project-description">
+          <div>
+            <img class="image" src="images/Solomon.png" alt="img1" />
+            <p class="pjt-button">
+              <a href="https://nancynancy13.github.io/ExamCoding/index.html"
+                >See Project</a
+              >
+            </p>
+          </div>
+          <aside>
+            <h2>
+              Solomon Sound Therapy
+              <span class="work-type">(Client based Project)</span>
+            </h2>
+            <p>
+              In this assignment, we worked as a team for this project based on
+              Marketing Strategies. Our goal was to reach new customers,
+              communicating to them in a suitable way through So-Me, and thereby
+              guiding them over to her website to buy.
+            </p>
+            <h2>Modules</h2>
+            <li>Dynamic Web Design</li>
+            <li>Microinteractions</li>
+            <li>Visual Communication</li>
+            <li>Reservation System</li>
+          </aside>
+        </div>
+      </div>
+
+      <div id="contact" class="revealUp section bg3">
+        <h1 class="subtitle-text">Contact Me</h1>
+        <div class="contact-container margin single-project-description">
+          <div class="contact-text">
+            <p>
+              If you're interested and want more information about working on a
+              web development and UX / UI Design projects with me, please feel
+              free to contact me. I would love an opportunity where I can
+              collaborate with some new skills and techniques....
+            </p>
+            <br />
+            <p>You can send an email or call me</p>
+            <p>
+              <a href="mailto:“13nancyrajput25@gmail.com"
+                >Email: 13nancyrajput25@gmail.com</a
+              >
+            </p>
+            <p>Phone: +46727781151</p>
+            <div class="icon">
+              <a
+                href="https://www.linkedin.com/in/nancy-mehra-97b03a221/"
+                class="fa fa-linkedin"
+              ></a>
+              <a
+                href="https://github.com/NancyNancy07"
+                class="fa fa-github"
+                style="font-size: 36px"
+              ></a>
+            </div>
+          </div>
+          <form>
+            <div class="container">
+              <div class="form-container">
+                <input
+                  type="text"
+                  id="input-name"
+                  name="name"
+                  placeholder="Your Name"
+                />
+                <input
+                  type="text"
+                  id="email"
+                  name="name"
+                  placeholder="Your Email"
+                />
+                <input
+                  type="text"
+                  id="subject"
+                  name="name"
+                  placeholder="Subject"
+                />
+                <textarea
+                  name="messege"
+                  id="messege"
+                  cols="30"
+                  rows="10"
+                  placeholder="Write your messege here..."
+                ></textarea>
+                <button id="submit-button" class="button">Send Messege</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer class="margin">
+      <div class="footer">
+        <div>
+          <p>Jonkoping University</p>
+        </div>
+        <div>
+          <p>© 2023 Nancy. All Rights Reserved.</p>
+        </div>
+        <div>
+          <p>Contact: nancy@mail.com</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
