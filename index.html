@@ -9,7 +9,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <script src="js/main.js" defer></script>
     <title>Portfolio</title>
   </head>
   <body>
@@ -98,7 +97,7 @@
           </article>
         </div>
       </div>
-      <div id="work" class="revealUp bg2">
+      <div id="work" class="section">
         <h1 class="subtitle-text">My Work</h1>
         <div class="work single-project-description">
           <aside>
@@ -276,7 +275,14 @@
                   rows="10"
                   placeholder="Write your messege here..."
                 ></textarea>
-                <button id="submit-button" class="button">Send Messege</button>
+                <button
+                  id="submit-button"
+                  class="button"
+                  type="button"
+                  onclick="sendMessage()"
+                >
+                  Send Messege
+                </button>
               </div>
             </div>
           </form>
@@ -297,5 +303,7 @@
         </div>
       </div>
     </footer>
+    <script src="js/main.js" defer></script>
+    <script src="js/userInput.js"></script>
   </body>
 </html>
